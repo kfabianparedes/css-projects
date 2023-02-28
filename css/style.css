@@ -9,6 +9,7 @@ html {
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
+    line-height: 2; /* Interlineado*/
 }
 
 /* Globales */
@@ -16,8 +17,18 @@ h1,
 h2,
 h3{
     font-family: 'Playfair Display', sans-serif;
+    margin: 0 0 5rem 0;
 }
 
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
 
 a{ 
     text-decoration: none;
@@ -35,9 +46,7 @@ img {
 /* Header y Navegación */
 .nombre-sitio {
     margin-top: 5rem;
-    margin-bottom: 5rem;
     text-align: center;
-    font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -56,10 +65,14 @@ img {
     background-image: url('../img/principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 55rem;
 }
 
 /** Categoriías **/
+.categorias {
+    padding-top: 5rem;
+}
 .categorias h2 {
     text-align: center;
 }
